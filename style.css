@@ -1,0 +1,111 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: Helvetica,Open-Sans,"sans-serif-light",sans-serif;
+}
+
+/* nav */
+
+nav{
+	width: 100%;
+}
+
+.nav-brand {
+	text-align: center;
+	margin: 20px auto;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	align-items:center
+}
+.nav-brand-center{
+	text-align: center;
+}
+.nav-brand-image{
+	width: 150px;
+}
+.nav-brand-right{
+	text-align: right;
+}
+.nav-brand-right{
+	list-style: none;
+}
+.nav-brand-right li{
+	display: inline-block;
+	padding: 2px;
+	cursor: pointer;
+	margin: 2px;
+}
+
+.nav-links{
+	list-style: none;
+	width: 100%;
+	text-align: center;
+}
+.nav-link{
+	text-transform: uppercase;
+	display: inline-block;
+	width: auto;
+	margin: 2px;
+	padding: 5px;
+	cursor: pointer;
+	font-size: .875rem;
+	font-weight: 300;
+	letter-spacing: .00625rem;
+	line-height: 1.4285714286;
+}
+
+/* banner */
+
+.banner{
+	width: 100%;
+	min-height: 820px;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	margin-top: -20px;
+	display: block;
+	vertical-align: baseline;
+	position: relative;
+}
+.banner-text{
+	text-transform: uppercase;
+	text-align: center;
+	padding: 20px;
+	color: #fff;
+	position: absolute;
+	bottom: 100px;
+	margin: auto;
+	width: 100%;
+}
+.banner-text h1{
+	margin: 15px auto 30px auto;
+}
+
+#banner-1{
+	background-image: url('https://media.femalemag.com.sg/public/2022/06/CHANEL-COCO-BEACH-2022-COLLECTION_AD-CAMPAIGN-BY-LACHLAN-BAILEY-2.jpeg');
+}
+#banner-2{
+	background-image: url('https://www.osmoz.fr/Public/Files/article/difference_entre_bleu_de_chanel_parfum_et_eau_de_parfum_89587871fb.jpg');
+}
+#banner-3{
+	background-image: url('https://vioralondon.com/wp-content/uploads/2021/12/Best-Chanel-Perfumes-of-All-Time-Main-Image.jpg');
+}
+#banner-4{
+	background-image: url('https://wwd.com/wp-content/uploads/2021/01/Chanel-S21-Campaign-3.jpg');
+}
+#banner-5{
+	background-image: url('https://hodinkee.imgix.net/uploads/images/a5911765-b9d7-455e-a418-077bb070f0eb/1C2A968416by9.jpg');
+}
+
+/* button */
+
+.banner-button{
+	padding: 15px;
+	color: #000;
+	background-color: #fff;
+	border: solid 2px #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-decoration: none;
+}
